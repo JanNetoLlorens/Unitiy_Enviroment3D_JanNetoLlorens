@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2988388955665704811
+--- !u!114 &-5720024396790969116
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Water
-  m_Shader: {fileID: -6465566751694194690, guid: cd1b385dee6ce6b4a871c5b0c4c4b8fa,
+  m_Name: M_Waterfall
+  m_Shader: {fileID: -6465566751694194690, guid: d78aed9df538bc04482b5c2c6541a43f,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 78a0050b4841d274eb5eb47f295eae3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -48,23 +52,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorATransparent: 1
-    - _ColorBTransparent: 0.34
-    - _Distance: 12.14
-    - _FoamAmount: 4.55
-    - _FoamAnimationU: 0
-    - _FoamAnimationV: 1
-    - _FoamColor: 1
-    - _FoamCutOff: 1.69
+    - _Distance: 6.6
     - _FoamOpacity: 0.8
-    - _FoamScaleU: 10
-    - _FoamScaleV: 10
-    - _Gradient_Noise: 1.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaterDepth: 1
+    - _Speed_U: 0.5
+    - _Speed_V: 1.99
+    - _Tile_U: 3
+    - _Tile_V: 2
+    - _Transparent_A: 1
+    - _Transparent_B: 0.38
     m_Colors:
-    - _Color_A: {r: 0.39716712, g: 0.83137256, b: 0.39607844, a: 0}
-    - _Color_B: {r: 0.25882348, g: 0.8509804, b: 0.657574, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WaterColor: {r: 0.25882354, g: 0.8509804, b: 0.65882355, a: 0}
   m_BuildTextureStacks: []
